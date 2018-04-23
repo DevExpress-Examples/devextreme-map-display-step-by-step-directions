@@ -1,0 +1,17 @@
+<div data-options="dxView : { name: 'Index', title: 'Home' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div class="dx-fieldset">
+            <div class="dx-field">
+                <strong>Start: </strong>
+                <div id="start" data-bind="dxLookup:{ lookupStartOptions }"></div>
+            </div>
+            <div class="dx-field">
+                <strong>End: </strong>
+                <div id="end" data-bind="dxLookup:{ lookupEndOptions }"></div>
+            </div>
+        </div>
+         <div id="warnings_panel" style="width: 100%; text-align: center"></div>
+
+        <div id="map" data-bind="dxMap: mapOptions"></div>
+    </div>
+</div>
